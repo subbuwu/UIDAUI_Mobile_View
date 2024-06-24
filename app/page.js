@@ -23,7 +23,7 @@ export default function Home() {
     <div className='mx-auto'>
       <Navbar/>
       <main className="">
-        <div className="p-[18px] lg:px-24 lg:pt-12 pt-0 bg-[#04185A] pb-24">
+        <div className="p-[18px] lg:px-24 lg:pt-12 bg-[#04185A] pb-24">
           <h1 className={`text-base lg:text-3xl font-medium ${roboto_condensed.className} from-[#FFFFFF] to-[#00A8DD] bg-gradient-to-r inline-block text-transparent bg-clip-text `}>
             About Bio Challenge
           </h1>
@@ -48,7 +48,7 @@ export default function Home() {
 
               <div className={`flex flex-row justify-start items-center gap-2 mt-2 ${roboto.className} text-white font-bold text-sm lg:text-xl leading-[20px] tracking-[0.1px]`}>
                 <Image src='/clock.svg' width={24} height={24} alt="cal" />
-                Time: 18:30 – 20:00 IST / 14:30 – 16:00 GMT
+                Time: 18:30 – 20:00 IST / 13:00 – 14:30 GMT
               </div>
             </h2>
           </div>
@@ -88,7 +88,7 @@ export default function Home() {
       </main>
       <footer className="px-0 py-3 mt-3 border-t-[1px] max-w-[90%] mx-auto border-[#516091] flex flex-row justify-between">
         <Image src="/footerimg2.svg" width={58} height={35} alt="file"/>
-        <Image src="/footerimg1.svg" width={58} height={35} alt="file"/>
+        <a href="https://www.microsave.net/" target="_blank"><Image src="/footerimg1.svg" width={58} height={35} alt="file"/></a>
       </footer>
     </div>
   );
